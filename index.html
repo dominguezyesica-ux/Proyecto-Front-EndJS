@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO PREE - Cacao y Miel</title>
+    
+    <!-- Fuentes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Oswald:wght@200..700&family=Pompiere&display=swap" rel="stylesheet">
+    
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cacao y Miel</h1> 
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="box banner"></div> 
+        <h2>Cookies and Donuts</h2>
+    </header>
+
+    <main>
+        <section class="introduccion">
+            <p>
+                Te invitamos a descubrir una experiencia única en sabores, aromas y texturas irresistibles. 
+                Nuestras cookies y mini donas están hechas para sorprenderte en cada bocado y convertir cada momento en un pequeño placer inolvidable. 
+                Dejate tentar y descubrí el sabor de lo extraordinario.
+            </p>
+        </section>
+
+        <section class="productos">
+            <h2>Productos</h2>
+            <ul>
+                <li>Mini Donas</li>
+                <li>Mini Donas Personalizadas</li>
+                <li>Crumbl Cookies</li>
+                <li>Crumbl Cookies Rellenas</li>
+            </ul>
+
+            <div class="galeria">
+                <div class="box1"></div>
+                <div class="box3"></div>
+                <div class="box4"></div>
+                <div class="box5"></div>
+            </div>
+        </section>
+
+        <aside class="destacado">
+            <a href="https://www.youtube.com/shorts/-DRilA6Am_s" target="_blank" rel="noopener noreferrer">¡Tentate con este video!</a>
+        </aside>
+
+        <section class="contacto">
+            <h2>Dejanos un mensaje</h2>
+            <form action="https://formspree.io/f/xrpeqywl" method="POST" autocomplete="on">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Contanos cómo podemos ayudarte:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Cookies & Donuts Web. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
