@@ -1,25 +1,64 @@
-🍩 Cacao y Miel 
+# Cacao y Miel
 
-¡Bienvenido al repositorio de **Cacao y Miel**!
-Este proyecto es una página web básica desarrollada como parte de un curso de Front-End, dedicada a la difusión y venta de productos de repostería artesanal, como mini donas y cookies rellenas.
+Landing page para una marca dedicada a cookies y mini donas, diseñada para promocionar productos, mostrar una galería visual y captar mensajes de clientes.
 
-Características del Proyecto
+## Descripción
+Este proyecto consiste en una web estática con una estética dulce y acogedora, enfocada en branding y presentación visual del negocio. La página incluye:
 
-*Navegación Intuitiva:** Menú estructurado para acceder a secciones clave (Inicio, Acerca de, Productos, Contacto).
-*Catálogo Visual:** Galería de imágenes de productos.
-*Formulario Integrado:** Sección de contacto conectada a través de **Formspree** para el envío directo de consultas.
-*Estilo Personalizado:** Combinación de fuentes de *Google Fonts* y una paleta de colores cálidos pensada para repostería.
+- Encabezado y navegación
+- Sección de introducción
+- Catálogo de productos
+- Galería de imágenes
+- Enlace a contenido multimedia
+- Formulario de contacto
 
-Tecnologías Utilizadas
+## Tecnologías utilizadas
+- HTML5
+- CSS3
+- Google Fonts
+- Formspree para envío de formularios
 
-*HTML5:** Estructuración semántica del sitio (`<header>`, `<main>`, `<section>`, `<aside>`, `<footer>`).
-*CSS:** Estilizado visual, diseño adaptativo y tipografías externas.
-*Google Fonts:** Integración de fuentes como *Corinthia*, *Oswald* y *Pompiere*.
-*Formspree:** Backend simple para el procesamiento de formularios de contacto.
+## Estructura del proyecto
+```text
+Proyecto_YD/
+├── index.html
+├── styles.css
+├── README.md
+├── css/
+├── Imagenes/
+├── videos/
+└── .git/
+```
 
-Estructura del Archivo
+## Requisitos
+- Navegador web moderno
+- Conexión a Internet para cargar fuentes y el formulario externo
+
+## Cómo ejecutar el proyecto
+1. Descarga o clona el repositorio.
+2. Abre la carpeta del proyecto.
+3. Ejecuta `index.html` en tu navegador.
+
+También puedes usar un servidor local simple si prefieres, por ejemplo:
+
+```bash
+python -m http.server 8000
+```
+
+Luego accede a:
 
 ```text
-├── index.html          # Código fuente principal de la página
-├── styles.css          # Hojas de estilo CSS
-└── Imagenes/           # Recursos visuales (donas, cookies, banners)
+http://localhost:8000
+```
+
+## Capturas de referencia
+La landing page está pensada para transmitir una sensación cálida, artesanal y apetecible, con tonos pastel, tipografías elegantes y una presentación visual enfocada en productos premium.
+
+## Contacto
+Para consultas o encargos podés usar el formulario incluido en la página o comunicarte con la marca a través del sitio web.
+
+## Estado del proyecto
+En desarrollo activo.
+
+## Licencia
+Este proyecto no incluye una licencia específica en este momento.
